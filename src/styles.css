@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: #209cee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50%;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo button {
+  background: #209cee;
+  margin: 5px;
+  color: white;
+  font-size: 0.94rem;
+  border: 0;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
+.todo button:hover {
+  background: rgb(25, 70, 85);
+}
+
+.todo button:focus {
+  outline: none;
+}
